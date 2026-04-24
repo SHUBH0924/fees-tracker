@@ -1,0 +1,43 @@
+# ----------------------
+# Python
+# ----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environments
+venv/
+.env/
+.venv/
+backend/venv/
+
+# ----------------------
+# Environment Variables
+# ----------------------
+.env
+.env.*
+
+# ----------------------
+# Flask
+# ----------------------
+instance/
+.webassets-cache
+
+# ----------------------
+# Logs
+# ----------------------
+*.log
+
+# ----------------------
+# VS Code / IDE
+# ----------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------
+# OS Files
+# ----------------------
+.DS_Store
+Thumbs.db

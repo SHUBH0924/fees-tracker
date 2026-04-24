@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fee Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <h2> Medhavi University Fee Tracker</h2>
+
+    <!-- Filters Section -->
+    <div class="filters">
+        <div>
+            <label>Month</label>
+            <select id="month"></select>
+        </div>
+
+        <div>
+            <label>Year</label>
+            <select id="year">
+                <option value="2026">2026</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Batch</label>
+            <select id="batchFilter">
+                <option value="">All</option>
+            </select>
+        </div>
+
+        <div>
+            <label>Status</label>
+            <select id="statusFilter">
+                <option value="">All</option>
+                <option value="Paid">Paid</option>
+                <option value="Unpaid">Unpaid</option>
+            </select>
+        </div>
+
+        <div style="align-self: flex-end;">
+            <button onclick="clearFilters()" class="btn secondary">Clear Filters</button>
+        </div>
+    </div>
+
+    <!-- Actions -->
+    <div class="actions">
+        <input type="file" id="csvFile" class="btn secondary">
+        <button onclick="uploadCSV()" class="btn primary">Upload CSV</button>
+        <button onclick="downloadData()" class="btn secondary">Download</button>
+    </div>
+
+    <!-- Table -->
+    <div class="table-container">
+        <table>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Roll No</th>
+                    <th>Batch</th>
+                    <th>Status</th>
+                </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+        </table>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
