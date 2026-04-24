@@ -1,4 +1,4 @@
-# 📊 Medhavi University Fee Tracker
+# Medhavi University Fee Tracker
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Flask](https://img.shields.io/badge/Flask-Backend-black)
