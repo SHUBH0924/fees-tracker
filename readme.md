@@ -9,18 +9,18 @@ A full-stack web application to manage and track student fee payments with CSV u
 
 ---
 
-## 🚀 Features
+## Features
 
-- 📁 Upload CSV for bulk fee updates  
-- 📊 Track Paid / Unpaid students  
-- 🔍 Filter by Month, Year, Batch, Status  
-- 📥 Export data as CSV  
-- ⚡ Real-time refresh after upload  
-- 🎨 Clean UI with status highlighting  
+- Upload CSV for bulk fee updates  
+- Track Paid / Unpaid students  
+- Filter by Month, Year, Batch, Status  
+- Export data as CSV  
+- Real-time refresh after upload  
+- Clean UI with status highlighting  
 
 ---
 
-## 🧱 Tech Stack
+## Tech Stack
 
 | Layer | Technology |
 |------|------------|
@@ -31,7 +31,7 @@ A full-stack web application to manage and track student fee payments with CSV u
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 ASSIGNMENT/
 │── backend/
 │ │── app.py
@@ -46,10 +46,10 @@ ASSIGNMENT/
 │ │── index.html
 │ │── script.js
 │ │── style.css
-│ │── sample_data.csv
-│
+│ 
+│── sample_data.csv
 │── README.md
-## ⚙️ Installation & Setup
+## Installation & Setup
 
 ### 1. Clone Repository
 
@@ -118,7 +118,7 @@ frontend/index.html
 
 ---
 
-## 📡 API Endpoints
+## API Endpoints
 
 | Method | Endpoint | Description |
 |--------|---------|------------|
@@ -128,7 +128,7 @@ frontend/index.html
 
 ---
 
-## 📥 CSV Format
+## CSV Format
 
 Required columns:
 
@@ -145,17 +145,17 @@ CSE001,3,2026,50000,2026-03-06
 
 ---
 
-## 🎯 Frontend Highlights
+## Frontend Highlights
 
-- 🔄 Auto-fetch data on load  
-- 🎛 Dynamic filters (Batch, Status)  
-- 📁 CSV upload with instant feedback  
-- 📊 Highlight unpaid students in red  
-- 📥 One-click export  
+- Auto-fetch data on load  
+- Dynamic filters (Batch, Status)  
+- CSV upload with instant feedback  
+- Highlight unpaid students in red  
+- One-click export  
 
 ---
 
-## ⚠️ Error Handling
+## Error Handling
 
 - Missing columns → Error  
 - Invalid dates → Rejected  
@@ -164,7 +164,7 @@ CSE001,3,2026,50000,2026-03-06
 
 ---
 
-## 🔍 Backend Highlights
+## Backend Highlights
 
 - LEFT JOIN → detect unpaid students  
 - ON CONFLICT → update existing records  
@@ -173,7 +173,7 @@ CSE001,3,2026,50000,2026-03-06
 
 ---
 
-## 📌 Future Improvements
+## Future Improvements
 
 - Authentication system  
 - Dashboard with charts  
@@ -182,14 +182,14 @@ CSE001,3,2026,50000,2026-03-06
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Shubhjeet Paul**  
 Data Analyst | Python Developer | ML Enthusiast  
 
 ---
 
-## ⭐ Support
+## Support
 
 If you like this project:
 
